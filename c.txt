@@ -1,0 +1,9 @@
+
+# Missing Header for compiling a C++/C program
+```
+fatal error: SFML/Graphics.hpp: No such file or directory
+ #include <SFML/Graphics.hpp>
+```
+> apt-file -x search 'SFML/Graphics.hpp'
+libsfml-dev: /usr/include/SFML/Graphics.hpp
+> sudo apt install libsfml-dev
